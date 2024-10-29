@@ -1,0 +1,4 @@
+ALTER TABLE "public"."app_school" 
+  ADD COLUMN "school_description" varchar(256),
+  ADD COLUMN "school_address" varchar(256),
+  ADD COLUMN "location_id" int4;
